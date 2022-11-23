@@ -1,0 +1,13 @@
+package langeBridge;
+
+public class NorthBoundFarmer extends Farmer {
+
+    public NorthBoundFarmer(Bridge b) {
+
+        super(b);
+
+        this.name = "North";
+
+    }
+
+}

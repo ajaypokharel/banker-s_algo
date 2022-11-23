@@ -6,6 +6,7 @@ def banker_algorithm(allocation, max_matrix, available):
     m = int(input("Enter the number of Resources: "))
 
     need = []
+
     for i in range(n):
         temp = []
         for j in range(m):
